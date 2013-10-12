@@ -6,14 +6,13 @@
  */
 
 #include "test.h"
-
 test::test() {
 	// TODO Auto-generated constructor stub
 
 }
-char* test::printmethod()
+int test::printmethod()
 {
-	return "test printmethod";
+	return 1;
 }
 
 test::~test() {

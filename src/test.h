@@ -11,7 +11,7 @@
 class test {
 public:
 	test();
-	char * printmethod();
+	int printmethod();
 	virtual ~test();
 };
 

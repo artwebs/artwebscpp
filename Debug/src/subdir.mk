@@ -4,13 +4,16 @@
 
 # Add inputs and outputs from these tool invocations to the build variables 
 CPP_SRCS += \
-../src/artwebscpp.cpp 
+../src/artwebscpp.cpp \
+../src/test.cpp 
 
 OBJS += \
-./src/artwebscpp.o 
+./src/artwebscpp.o \
+./src/test.o 
 
 CPP_DEPS += \
-./src/artwebscpp.d 
+./src/artwebscpp.d \
+./src/test.d 
 
 
 # Each subdirectory must supply rules for building sources it contributes
